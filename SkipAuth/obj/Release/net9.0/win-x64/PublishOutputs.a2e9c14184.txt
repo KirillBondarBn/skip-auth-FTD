@@ -1,0 +1,4 @@
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth\bin\Release\net9.0\win-x64\publish\appsettings.Development.json
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth\bin\Release\net9.0\win-x64\publish\appsettings.json
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth\bin\Release\net9.0\win-x64\publish\SkipAuth.exe
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth\bin\Release\net9.0\win-x64\publish\aspnetcorev2_inprocess.dll

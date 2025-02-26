@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "G/xHrqy3byc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\SkipAuth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kiril\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\kiril\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

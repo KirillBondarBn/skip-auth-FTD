@@ -1,0 +1,6 @@
+@SkipAuth_HostAddress = http://localhost:5010
+
+GET {{SkipAuth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
