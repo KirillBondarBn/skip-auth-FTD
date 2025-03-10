@@ -1,0 +1,15 @@
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\bin\Debug\net9.0\SkipAuth.Database.deps.json
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\bin\Debug\net9.0\SkipAuth.Database.runtimeconfig.json
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\bin\Debug\net9.0\SkipAuth.Database.dll
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\bin\Debug\net9.0\SkipAuth.Database.pdb
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.csproj.AssemblyReference.cache
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.AssemblyInfoInputs.cache
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.AssemblyInfo.cs
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.csproj.CoreCompileInputs.cache
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.sourcelink.json
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.dll
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\refint\SkipAuth.Database.dll
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.pdb
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\SkipAuth.Database.genruntimeconfig.cache
+C:\Users\kiril\source\repos\SkipAuth\SkipAuth.Database\obj\Debug\net9.0\ref\SkipAuth.Database.dll
