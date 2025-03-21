@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using SkipAuth.Models;
 
 namespace SkipAuth;
@@ -27,7 +29,8 @@ public partial class DatabaseContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseNpgsql("Host=51.250.40.237;Database=database;Username=developer;Password=jDyu38dcxDO32;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseNpgsql("Host=51.250.40.237;Database=database;Username=developer;Password=jDyu38dcxDO32");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -121,11 +124,13 @@ public partial class DatabaseContext : DbContext
 
         modelBuilder.Entity<Token>(entity =>
         {
-            entity
-                .HasKey(e => e.Id).HasName("tokens_pkey");
-            
+            entity.HasKey(e => e.Id).HasName("tokens_pkey");
+
             entity.ToTable("tokens");
 
+            entity.Property(e => e.Id)
+                .HasDefaultValueSql("gen_random_uuid()")
+                .HasColumnName("id");
             entity.Property(e => e.ExpireAt)
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("expire_at");
@@ -134,7 +139,7 @@ public partial class DatabaseContext : DbContext
                 .HasColumnName("token");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
-            entity.HasOne(d => d.User).WithMany()
+            entity.HasOne(d => d.User).WithMany(p => p.Tokens)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("tokens_user_id_fkey");

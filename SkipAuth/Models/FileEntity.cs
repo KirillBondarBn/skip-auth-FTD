@@ -1,4 +1,7 @@
-﻿namespace SkipAuth.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace SkipAuth.Models;
 
 public partial class FileEntity
 {

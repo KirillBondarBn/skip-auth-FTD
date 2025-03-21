@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\requestsdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\requestsdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\responsedto\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\responsedto\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|c:\\users\\kiril\\source\\repos\\skipauth\\skipauth\\models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C57FD15-E578-4DDE-A440-9535AD5651DB}|SkipAuth\\SkipAuth.csproj|solutionrelative:skipauth\\models\\fileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\DatabaseContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SkipAuth\\Models\\DatabaseContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\RequestsDTO\\RegisterRequestDTO.cs",
+              "RelativeDocumentMoniker": "SkipAuth\\RequestsDTO\\RegisterRequestDTO.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\RequestsDTO\\RegisterRequestDTO.cs",
+              "RelativeToolTip": "SkipAuth\\RequestsDTO\\RegisterRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:39:23.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileEntity.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\FileEntity.cs",
+              "RelativeDocumentMoniker": "SkipAuth\\Models\\FileEntity.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\FileEntity.cs",
+              "RelativeToolTip": "SkipAuth\\Models\\FileEntity.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:54:59.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "SkipAuth\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "SkipAuth\\Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T13:34:16.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Program.cs",
+              "RelativeDocumentMoniker": "SkipAuth\\Program.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Program.cs",
+              "RelativeToolTip": "SkipAuth\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:50:04.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SkipAuth\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SkipAuth\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:18:41.602Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,62 +107,9 @@
               "RelativeDocumentMoniker": "SkipAuth\\DatabaseContext.cs",
               "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\DatabaseContext.cs",
               "RelativeToolTip": "SkipAuth\\DatabaseContext.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAkwHoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T12:45:27.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\Token.cs",
-              "RelativeDocumentMoniker": "SkipAuth\\Models\\Token.cs",
-              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Models\\Token.cs",
-              "RelativeToolTip": "SkipAuth\\Models\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:28:49.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenResponse.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\ResponseDTO\\TokenResponse.cs",
-              "RelativeDocumentMoniker": "SkipAuth\\ResponseDTO\\TokenResponse.cs",
-              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\ResponseDTO\\TokenResponse.cs",
-              "RelativeToolTip": "SkipAuth\\ResponseDTO\\TokenResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:23:08.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Program.cs",
-              "RelativeDocumentMoniker": "SkipAuth\\Program.cs",
-              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Program.cs",
-              "RelativeToolTip": "SkipAuth\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T15:50:04.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SkipAuth\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\kiril\\source\\repos\\SkipAuth\\SkipAuth\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SkipAuth\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAwGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:18:41.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T13:55:22.415Z"
             }
           ]
         }

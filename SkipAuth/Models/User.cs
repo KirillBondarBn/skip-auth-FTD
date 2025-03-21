@@ -18,4 +18,6 @@ public partial class User
     public virtual ICollection<GroupStudent> GroupStudents { get; set; } = new List<GroupStudent>();
 
     public virtual ICollection<Request> Requests { get; set; } = new List<Request>();
+
+    public virtual ICollection<Token> Tokens { get; set; } = new List<Token>();
 }

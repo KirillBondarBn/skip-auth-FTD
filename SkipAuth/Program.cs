@@ -4,6 +4,16 @@ using SkipAuth;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:5173/", "http://localhost:5173", "http://51.250.40.237:8080", "http://51.250.40.237:8080/")
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+    });
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -28,6 +38,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

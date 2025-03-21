@@ -5,6 +5,7 @@ using SkipAuth.Models;
 using SkipAuth.RequestsDTO;
 using SkipAuth.ResponseDTO;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 namespace SkipAuth.Controllers;
@@ -34,7 +35,7 @@ public class AuthController : ControllerBase
 
         User user = new User
         {
-            Id = new Guid(),
+            Id = Guid.NewGuid(),
             Name = request.Name,
             Login = request.Login,
             Password = passwordHash,
@@ -44,10 +45,13 @@ public class AuthController : ControllerBase
         _dbContext.Users.Add(user);
         _dbContext.SaveChanges();
 
+        var userId = user.Id;
+        var claims = new List<Claim> { new Claim("userId", userId.ToString()) };
 
         var jwt = new JwtSecurityToken(
                 issuer: "issuer",
                 audience: "audience",
+                claims: claims,
                 expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(60)),
                 signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysupersecret_secretsecretsecretkey!123")), SecurityAlgorithms.HmacSha256));
 
@@ -59,7 +63,8 @@ public class AuthController : ControllerBase
 
         Token token = new Token
         {
-            UserId = _dbContext.Users.First(x => x.Login == request.Login).Id,
+            Id = new Guid(),
+            UserId = userId,
             Token1 = response.Token,
             ExpireAt = response.Expire
         };
@@ -87,9 +92,13 @@ public class AuthController : ControllerBase
             return BadRequest("Wrong pair login-password");
         }
 
+        var userId = user.Id;
+        var claims = new List<Claim> { new Claim("userId", userId.ToString()) };
+
         var jwt = new JwtSecurityToken(
                 issuer: "issuer",
                 audience: "audience",
+                claims: claims,
                 expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(60)),
                 signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysupersecret_secretsecretsecretkey!123")), SecurityAlgorithms.HmacSha256));
 
